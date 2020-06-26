@@ -1,0 +1,102 @@
+body{
+	font-family: Poppins;
+}
+#main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+  text-align: center;
+font-family: Poppins;
+}
+#title{
+  font-size: 50px;
+font-family: Montserrat;
+}
+#img-div{
+  background-color: #FFF;
+  width: 1300px;
+  height: 725px;
+  display: block;
+  padding: 20px;
+  margin: auto;
+}
+#img{
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 300px){
+  #img-div{
+    width: 288px; 
+    height: auto;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px){
+  #img-div{
+    width: 385px;
+    height: auto;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px){
+  #img-div{
+    width: 481px; 
+    height: auto;
+  }
+}
+@media (min-width: 500px) and (max-width: 600px){
+  #img-div{
+    width: 577px; 
+    height: auto;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px){
+  #img-div{
+    width: 674px; 
+    height: auto;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px){
+  #img-div{
+    width: 770px; 
+    height: auto;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px){
+  #img-div{
+    width: 866px; 
+    height: auto;
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px){
+  #img-div{
+    width: 960px; 
+    height: auto;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px){
+  #img-div{
+    width: 1060px; 
+    height: auto;
+  }
+}
+#img-caption{
+  font-size: 18px;
+  padding-top: 7px;
+}
+#tribute-info{
+  font-family: BlinkMacSystemFont, Poppins;
+  font-size: 18px; 
+  margin: 10px 60px 10px 60px; 
+}
+#tribute-link{
+  font-family: Oxygen, sans-serif;
+}
+#link{
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+}
